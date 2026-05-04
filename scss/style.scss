@@ -114,7 +114,7 @@ a {
     }
 
     .header__logo {
-        display: block;
+        display: inline-block;
 
         img {
             width: 245px;
@@ -374,7 +374,7 @@ a {
         display: flex;
         justify-content: space-between;
         gap: 17px;
-        overflow: hidden;
+
 
         @include laptop {
             flex-direction: column;
@@ -383,6 +383,7 @@ a {
 
         @include mobile {
             gap: 0;
+            overflow: hidden;
         }
     }
 
